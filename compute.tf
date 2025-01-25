@@ -18,7 +18,7 @@ resource "aws_instance" "terraform_test_ec2" {
  key_name = var.instance_key_name
 
 tags = {
- Name = "terraform_test_ec2"
+ Name = "terraform_test_ec2_1"
 }
  user_data = <<-EOF
  #!/bin/bash
