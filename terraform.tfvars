@@ -1,4 +1,4 @@
-test_vpc = "dev_tf_vpc"
+test_vpc = "dev_terraform_vpc"
 vpc_cidr = "172.31.0.0/16"
 subnet_public_cidrs = ["172.31.1.0/24","172.31.3.0/24"]
 subnet_private_cidrs = ["172.31.2.0/24","172.31.4.0/24"]
